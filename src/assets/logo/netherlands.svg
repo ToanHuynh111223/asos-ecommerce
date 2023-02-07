@@ -1,0 +1,51 @@
+<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="80"
+                height="80"
+                viewBox="0 0 80 80"
+              >
+                <defs>
+                  <circle id="netherlands-a" cx="40" cy="40" r="40"></circle>
+                  <circle id="netherlands-c" cx="40" cy="40" r="40"></circle>
+                </defs>
+                <g fill="none" fillRule="evenodd">
+                  <circle
+                    cx="40"
+                    cy="40"
+                    r="40"
+                    fill="#FFF"
+                    fillRule="nonzero"
+                  ></circle>
+                  <mask id="netherlands-b" fill="#fff">
+                    <use href="#netherlands-a"></use>
+                  </mask>
+                  <g fillRule="nonzero" mask="url(#netherlands-b)">
+                    <polygon
+                      fill="#314588"
+                      points="0 55 140 55 140 80 0 80"
+                    ></polygon>
+                    <polygon
+                      fill="#FFF"
+                      points="0 25 140 25 140 55 0 55"
+                    ></polygon>
+                    <polygon
+                      fill="#9F1330"
+                      points="0 0 140 0 140 25 0 25"
+                    ></polygon>
+                  </g>
+                  <g>
+                    <mask id="netherlands-d" fill="#fff">
+                      <use href="#netherlands-c"></use>
+                    </mask>
+                    <circle
+                      cx="40"
+                      cy="40"
+                      r="36.667"
+                      stroke="#000"
+                      stroke-width="6.667"
+                      mask="url(#netherlands-d)"
+                      opacity=".2"
+                    ></circle>
+                  </g>
+                </g>
+              </svg>

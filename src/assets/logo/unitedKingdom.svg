@@ -1,0 +1,105 @@
+<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="74"
+                height="74"
+                viewBox="0 0 74 74"
+              >
+                <defs>
+                  <circle
+                    id="united-kingdom-a"
+                    cx="37.154"
+                    cy="36.923"
+                    r="36.923"
+                  ></circle>
+                  <circle
+                    id="united-kingdom-c"
+                    cx="37.154"
+                    cy="36.923"
+                    r="36.923"
+                  ></circle>
+                </defs>
+                <g fill="none" fillRule="evenodd" transform="translate(-1)">
+                  <circle
+                    cx="37.154"
+                    cy="36.923"
+                    r="36.923"
+                    fill="#FFF"
+                    fillRule="nonzero"
+                    transform="translate(.846)"
+                  ></circle>
+                  <g transform="translate(.846)">
+                    <mask id="united-kingdom-b" fill="#fff">
+                      <use href="#united-kingdom-a"></use>
+                    </mask>
+                    <g fillRule="nonzero" mask="url(#united-kingdom-b)">
+                      <g transform="translate(-7.154)">
+                        <rect
+                          width="14.769"
+                          height="73.846"
+                          x="36.923"
+                          fill="#CF142B"
+                        ></rect>
+                        <rect
+                          width="14.769"
+                          height="73.846"
+                          x="36.923"
+                          fill="#CF142B"
+                          transform="rotate(90 44.308 36.923)"
+                        ></rect>
+                        <polygon
+                          fill="#CF142B"
+                          points="81.231 13.846 81.231 18.462 69.231 24.923 60.923 24.923"
+                        ></polygon>
+                        <polygon
+                          fill="#CF142B"
+                          points="20.308 13.846 20.308 18.462 8.308 24.923 0 24.923"
+                          transform="matrix(-1 0 0 1 20.308 0)"
+                        ></polygon>
+                        <polygon
+                          fill="#CF142B"
+                          points="27.692 48.923 27.692 53.538 15.692 60 7.385 60"
+                          transform="rotate(180 17.538 54.462)"
+                        ></polygon>
+                        <polygon
+                          fill="#CF142B"
+                          points="88.615 48.923 88.615 53.538 76.615 60 68.308 60"
+                          transform="matrix(1 0 0 -1 0 108.923)"
+                        ></polygon>
+                        <polygon
+                          fill="#00247D"
+                          points="7.385 0 31.385 0 31.385 24 7.385 11.077"
+                        ></polygon>
+                        <polygon
+                          fill="#00247D"
+                          points="7.385 49.846 31.385 49.846 31.385 73.846 7.385 60.923"
+                          transform="matrix(1 0 0 -1 0 123.692)"
+                        ></polygon>
+                        <polygon
+                          fill="#00247D"
+                          points="57.231 0 81.231 0 81.231 24 57.231 11.077"
+                          transform="matrix(-1 0 0 1 138.462 0)"
+                        ></polygon>
+                        <polygon
+                          fill="#00247D"
+                          points="57.231 49.846 81.231 49.846 81.231 73.846 57.231 60.923"
+                          transform="rotate(180 69.23 61.846)"
+                        ></polygon>
+                      </g>
+                    </g>
+                  </g>
+                  <g transform="translate(.846)">
+                    <mask id="united-kingdom-d" fill="#fff">
+                      <use href="#united-kingdom-c"></use>
+                    </mask>
+                    <circle
+                      cx="37.154"
+                      cy="36.923"
+                      r="33.846"
+                      stroke="#000"
+                      stroke-width="6.154"
+                      mask="url(#united-kingdom-d)"
+                      opacity=".2"
+                    ></circle>
+                  </g>
+                </g>
+              </svg>

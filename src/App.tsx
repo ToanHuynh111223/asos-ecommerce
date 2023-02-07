@@ -1,25 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Navigate } from "react-router-dom";
+import { Fragment } from "react";
+import DefaultLayout from "./layouts/DefaultLayout";
+import { publicRoutes } from "./routes";
+import { PageNotFound } from "./pages";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          {publicRoutes.map((route, index) => {
+            const Page: any = route.page ? route.page : PageNotFound;
+            const path = route.path ? route.path : "*";
+            let Layout: any = route.layout === null ? Fragment : DefaultLayout;
+            return (
+              <Route
+                key={index}
+                path={path}
+                element={
+                  <Layout>
+                    <Page />
+                  </Layout>
+                }
+              ></Route>
+            );
+          })}
+          /** redirect to /women when user goes to / */
+          <Route path="/" element={<Navigate to="/women" />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

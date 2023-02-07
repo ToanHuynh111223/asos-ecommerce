@@ -1,0 +1,51 @@
+<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="80"
+                height="80"
+                viewBox="0 0 80 80"
+              >
+                <defs>
+                  <circle id="poland-a" cx="40" cy="40" r="40"></circle>
+                  <circle id="poland-c" cx="40" cy="40" r="40"></circle>
+                </defs>
+                <g fill="none" fillRule="evenodd">
+                  <circle
+                    cx="40"
+                    cy="40"
+                    r="40"
+                    fill="#FFF"
+                    fill-rule="nonzero"
+                  ></circle>
+                  <mask id="poland-b" fill="#fff">
+                    <use href="#poland-a"></use>
+                  </mask>
+                  <g mask="url(#poland-b)">
+                    <g transform="translate(-11)">
+                      <polygon
+                        fill="#FFF"
+                        fillRule="nonzero"
+                        points="0 0 140 0 140 40 0 40"
+                      ></polygon>
+                      <polygon
+                        fill="#D80031"
+                        fillRule="nonzero"
+                        points="0 40 140 40 140 80 0 80"
+                      ></polygon>
+                    </g>
+                  </g>
+                  <g>
+                    <mask id="poland-d" fill="#fff">
+                      <use href="#poland-c"></use>
+                    </mask>
+                    <circle
+                      cx="40"
+                      cy="40"
+                      r="36.667"
+                      stroke="#000"
+                      stroke-width="6.667"
+                      mask="url(#poland-d)"
+                      opacity=".2"
+                    ></circle>
+                  </g>
+                </g>
+              </svg>

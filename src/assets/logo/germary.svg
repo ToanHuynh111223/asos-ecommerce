@@ -1,0 +1,53 @@
+<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="80"
+                height="80"
+                viewBox="0 0 80 80"
+              >
+                <defs>
+                  <circle id="germany-a" cx="40" cy="40" r="40"></circle>
+                  <circle id="germany-c" cx="40" cy="40" r="40"></circle>
+                </defs>
+                <g fill="none" fillRule="evenodd">
+                  <circle
+                    cx="40"
+                    cy="40"
+                    r="40"
+                    fill="#FFF"
+                    fillRule="nonzero"
+                  ></circle>
+                  <mask id="germany-b" fill="#fff">
+                    <use href="#germany-a"></use>
+                  </mask>
+                  <g fillRule="nonzero" mask="url(#germany-b)">
+                    <g transform="translate(-35)">
+                      <polygon
+                        fill="#000"
+                        points="0 0 140 0 140 25 0 25"
+                      ></polygon>
+                      <polygon
+                        fill="#E1001F"
+                        points="0 25 140 25 140 55 0 55"
+                      ></polygon>
+                      <polygon
+                        fill="#F6D928"
+                        points="0 55 140 55 140 80 0 80"
+                      ></polygon>
+                    </g>
+                  </g>
+                  <g>
+                    <mask id="germany-d" fill="#fff">
+                      <use href="#germany-c"></use>
+                    </mask>
+                    <circle
+                      cx="40"
+                      cy="40"
+                      r="36.667"
+                      stroke="#000"
+                      stroke-width="6.667"
+                      mask="url(#germany-d)"
+                      opacity=".2"
+                    ></circle>
+                  </g>
+                </g>
+              </svg>

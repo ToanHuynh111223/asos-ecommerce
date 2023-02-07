@@ -1,0 +1,51 @@
+<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="80"
+                height="80"
+                viewBox="0 0 80 80"
+              >
+                <defs>
+                  <circle id="france-a" cx="40" cy="40" r="40"></circle>
+                  <circle id="france-c" cx="40" cy="40" r="40"></circle>
+                </defs>
+                <g fill="none" fillRule="evenodd">
+                  <circle
+                    cx="40"
+                    cy="40"
+                    r="40"
+                    fill="#FFF"
+                    fillRule="nonzero"
+                  ></circle>
+                  <mask id="france-b" fill="#fff">
+                    <use href="#france-a"></use>
+                  </mask>
+                  <g fillRule="nonzero" mask="url(#france-b)">
+                    <polygon
+                      fill="#323E95"
+                      points="0 0 25 0 25 80 0 80"
+                    ></polygon>
+                    <polygon
+                      fill="#F4F4F4"
+                      points="25 0 55 0 55 80 25 80"
+                    ></polygon>
+                    <polygon
+                      fill="#D80031"
+                      points="55 0 80 0 80 80 55 80"
+                    ></polygon>
+                  </g>
+                  <g>
+                    <mask id="france-d" fill="#fff">
+                      <use href="#france-c"></use>
+                    </mask>
+                    <circle
+                      cx="40"
+                      cy="40"
+                      r="36.667"
+                      stroke="#000"
+                      stroke-width="6.667"
+                      mask="url(#france-d)"
+                      opacity=".2"
+                    ></circle>
+                  </g>
+                </g>
+              </svg>

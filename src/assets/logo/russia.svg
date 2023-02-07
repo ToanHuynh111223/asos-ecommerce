@@ -1,0 +1,53 @@
+<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="80"
+                height="80"
+                viewBox="0 0 80 80"
+              >
+                <defs>
+                  <circle id="russia-a" cx="40" cy="40" r="40"></circle>
+                  <circle id="russia-c" cx="40" cy="40" r="40"></circle>
+                </defs>
+                <g fill="none" fillRule="evenodd">
+                  <circle
+                    cx="40"
+                    cy="40"
+                    r="40"
+                    fill="#FFF"
+                    fillRule="nonzero"
+                  ></circle>
+                  <mask id="russia-b" fill="#fff">
+                    <use href="#russia-a"></use>
+                  </mask>
+                  <g fillRule="nonzero" mask="url(#russia-b)">
+                    <g transform="translate(-19)">
+                      <polygon
+                        fill="#F4F4F4"
+                        points="0 0 140 0 140 25 0 25"
+                      ></polygon>
+                      <polygon
+                        fill="#323E95"
+                        points="0 25 143 25 143 55 0 55"
+                      ></polygon>
+                      <polygon
+                        fill="#D8001E"
+                        points="0 55 143 55 143 80 0 80"
+                      ></polygon>
+                    </g>
+                  </g>
+                  <g>
+                    <mask id="russia-d" fill="#fff">
+                      <use href="#russia-c"></use>
+                    </mask>
+                    <circle
+                      cx="40"
+                      cy="40"
+                      r="36.667"
+                      stroke="#000"
+                      stroke-width="6.667"
+                      mask="url(#russia-d)"
+                      opacity=".2"
+                    ></circle>
+                  </g>
+                </g>
+              </svg>

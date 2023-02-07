@@ -1,0 +1,49 @@
+<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="80"
+                height="80"
+                viewBox="0 0 80 80"
+              >
+                <defs>
+                  <circle id="sweden-a" cx="40" cy="40" r="40"></circle>
+                </defs>
+                <g fill="none" fillRule="evenodd">
+                  <circle
+                    cx="40"
+                    cy="40"
+                    r="40"
+                    fill="#FFF"
+                    fillRule="nonzero"
+                  ></circle>
+                  <mask id="sweden-b" fill="#fff">
+                    <use href="#sweden-a"></use>
+                  </mask>
+                  <g mask="url(#sweden-b)">
+                    <g transform="translate(-30)">
+                      <polygon
+                        fill="#2D5A95"
+                        fillRule="nonzero"
+                        points="19 0 157 0 157 80 19 80"
+                      ></polygon>
+                      <polygon
+                        fill="#F3D02F"
+                        fillRule="nonzero"
+                        points="50 0 66 0 66 80 50 80"
+                      ></polygon>
+                      <polygon
+                        fill="#F3D02F"
+                        fillRule="nonzero"
+                        points="0 32 138 32 138 48 0 48"
+                      ></polygon>
+                      <circle
+                        cx="70"
+                        cy="40"
+                        r="36.667"
+                        stroke="#000"
+                        stroke-width="6.667"
+                        opacity=".2"
+                      ></circle>
+                    </g>
+                  </g>
+                </g>
+              </svg>
