@@ -1,0 +1,26 @@
+.listNav {
+  display: flex;
+  list-style: none;
+  width: 230px;
+  border-bottom: none;
+  height: 60px;
+  li {
+    width: 115px;
+    border-right: 1px solid #525050;
+    border-left: 1px solid #525050;
+    text-align: center;
+    &:hover{
+        background-color: #474747;
+        cursor: pointer;
+    }
+    
+    a {
+        font-size: 14px;
+      text-decoration: none;
+      color: #fff;
+      line-height: 60px;
+      letter-spacing: 2px;
+      font-weight: 900;
+    }
+  }
+}

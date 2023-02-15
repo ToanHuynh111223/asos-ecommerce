@@ -4,6 +4,7 @@ import { Fragment } from "react";
 import DefaultLayout from "./layouts/DefaultLayout";
 import { publicRoutes } from "./routes";
 import { PageNotFound } from "./pages";
+import "../src/styles/App.scss";
 function App() {
   return (
     <Router>
@@ -11,7 +12,7 @@ function App() {
         <Routes>
           {publicRoutes.map((route, index) => {
             const Page: any = route.page ? route.page : PageNotFound;
-            const path = route.path ? route.path : "*";
+            const path: string = route.path ? route.path : "*";
             let Layout: any = route.layout === null ? Fragment : DefaultLayout;
             return (
               <Route
@@ -25,7 +26,7 @@ function App() {
               ></Route>
             );
           })}
-          /** redirect to /women when user goes to / */
+          {/** redirect to /women when user goes to / */}
           <Route path="/" element={<Navigate to="/women" />} />
         </Routes>
       </div>
