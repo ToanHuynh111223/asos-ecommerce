@@ -5,7 +5,7 @@ import { logo } from "../../assets";
 //import tabs
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-function PageNotFound() {
+const PageNotFound: React.FC = () => {
   return (
     <div className={clsx(styles.errorMessage)}>
       <svg
@@ -41,21 +41,23 @@ function PageNotFound() {
           <TabList>
             {logo.map((img, index) => {
               return (
-                <Tab
-                  key={index}
-                  style={{
-                    padding: "12px",
-                    width: "50px",
-                    height: "52px",
-                    margin: "0 10px",
-                  }}
-                >
-                  <img
-                    src={img.default}
-                    alt={`${index}`}
-                    style={{ width: "100%" }}
-                  />
-                </Tab>
+                index < 10 && (
+                  <Tab
+                    key={index}
+                    style={{
+                      padding: "12px",
+                      width: "50px",
+                      height: "52px",
+                      margin: "0 10px",
+                    }}
+                  >
+                    <img
+                      src={img.default}
+                      alt={`${index}`}
+                      style={{ width: "100%" }}
+                    />
+                  </Tab>
+                )
               );
             })}
           </TabList>
@@ -166,6 +168,6 @@ function PageNotFound() {
       </div>
     </div>
   );
-}
+};
 
 export default PageNotFound;

@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 
 /* eslint-disable */
 const regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-function ForgotPassword() {
+const ForgotPassword: React.FC = () => {
   const [valueUserName, setValueUserName] = useState("");
 
   const [checkMessageErrorEmail, setCheckMessageErrorEmail] = useState(false);
@@ -110,6 +110,6 @@ function ForgotPassword() {
       </div>
     </div>
   );
-}
+};
 
 export default ForgotPassword;

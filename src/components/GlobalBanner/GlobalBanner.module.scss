@@ -1,0 +1,27 @@
+.banner{
+    width: 100%;
+    display: flex;
+}
+.bannerLeft{
+    width: 50%;
+    background-color: rgb(38, 224, 102);
+    border-bottom:1px solid #fff ;
+    border-right: 1px solid #fff;
+}
+.bannerRight{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    border-bottom:1px solid #fff ;
+}
+.content{
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    a{
+        transition: opacity 0.6s ease;
+        &:hover{
+            opacity: 0.64;
+        }
+    }
+}

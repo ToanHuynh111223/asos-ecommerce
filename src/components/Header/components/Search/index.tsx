@@ -5,7 +5,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import ClearIcon from "@mui/icons-material/Clear";
 
 import { useState } from "react";
-function Search() {
+const Search: React.FC = () => {
   const [inputValue, setInputValue] = useState("");
   return (
     <div className={clsx(styles.search)}>
@@ -26,6 +26,6 @@ function Search() {
       </button>
     </div>
   );
-}
+};
 
 export default Search;

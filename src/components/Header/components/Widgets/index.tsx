@@ -8,7 +8,7 @@ import LocalMallOutlinedIcon from "@mui/icons-material/LocalMallOutlined";
 import Inventory2OutlinedIcon from "@mui/icons-material/Inventory2Outlined";
 import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
 import SmsOutlinedIcon from "@mui/icons-material/SmsOutlined";
-function Widgets() {
+const Widgets: React.FC = () => {
   return (
     <ul className={clsx(styles.widgets)}>
       <li className={clsx(styles.account)}>
@@ -26,25 +26,25 @@ function Widgets() {
           </div>
           <ul className={clsx(styles.bottom)}>
             <li>
-              <Link to="">
+              <Link to="/login">
                 <PermIdentityOutlinedIcon />
                 My Account
               </Link>
             </li>
             <li>
-              <Link to="">
+              <Link to="/login">
                 <Inventory2OutlinedIcon />
                 My Orders
               </Link>
             </li>
             <li>
-              <Link to="">
+              <Link to="*">
                 <HelpOutlineOutlinedIcon />
                 Returns Infomation
               </Link>
             </li>
             <li>
-              <Link to="">
+              <Link to="*">
                 <SmsOutlinedIcon />
                 Contact Preferences
               </Link>
@@ -68,6 +68,6 @@ function Widgets() {
       </li>
     </ul>
   );
-}
+};
 
 export default Widgets;

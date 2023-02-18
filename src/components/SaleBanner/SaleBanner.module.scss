@@ -1,0 +1,27 @@
+.saleBanner {
+  padding: 0 100px;
+  background-color: #26e066;
+  margin: 0 0 24px 0;
+  text-align: center;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 5px;
+  span {
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-style: italic;
+  }
+}
+.code {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+.slug {
+  font-weight: 400;
+  font-size: 12px;
+  padding-bottom: 8px;
+}

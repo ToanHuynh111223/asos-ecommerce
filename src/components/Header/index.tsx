@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import ListNav from "./components/ListNav";
 import Search from "./components/Search";
 import Widgets from "./components/Widgets";
-function Header() {
+const Header: React.FC = () => {
   return (
     <header
       style={{ padding: "0 32px", display: "flex", backgroundColor: "#2d2d2d" }}
@@ -27,6 +27,6 @@ function Header() {
       <Widgets />
     </header>
   );
-}
+};
 
 export default Header;

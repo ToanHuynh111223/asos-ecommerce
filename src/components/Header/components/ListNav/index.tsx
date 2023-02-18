@@ -2,7 +2,7 @@ import styles from "./ListNav.module.scss";
 import clsx from "clsx";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-function ListNav() {
+const ListNav: React.FC = () => {
   const location = useLocation();
   return (
     <ul className={clsx(styles.listNav)}>
@@ -28,6 +28,6 @@ function ListNav() {
       </li>
     </ul>
   );
-}
+};
 
 export default ListNav;

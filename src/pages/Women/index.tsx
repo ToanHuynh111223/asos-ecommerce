@@ -1,10 +1,20 @@
 import { useEffect } from "react";
-function Women() {
+import GlobalBanner from "../../components/GlobalBanner";
+import SaleBanner from "../../components/SaleBanner";
+import TrendingBrands from "../../components/TrendingBrands";
+const Women: React.FC = () => {
+  // 👇 remove class to body element
   useEffect(() => {
-    // 👇 remove class to body element
     document.body.classList.remove("signInPage");
   }, []);
-  return <h1>WoMen Page</h1>;
-}
+  return (
+    <>
+      <GlobalBanner />
+      <SaleBanner />
+      <h1>Women page</h1>
+      <TrendingBrands />
+    </>
+  );
+};
 
 export default Women;

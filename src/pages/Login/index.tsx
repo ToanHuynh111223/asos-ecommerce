@@ -6,10 +6,10 @@ import { useEffect, useRef, useState } from "react";
 import GoogleIcon from "@mui/icons-material/Google";
 import AppleIcon from "@mui/icons-material/Apple";
 import FacebookSharpIcon from "@mui/icons-material/FacebookSharp";
-
+import VisibilityIcon from "@mui/icons-material/Visibility";
 /* eslint-disable */
 const regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-function Login() {
+const Login: React.FC = () => {
   const [valueUserName, setValueUserName] = useState("");
   const [valuePassword, setValuePassword] = useState("");
   const [checkMessageErrorEmail, setCheckMessageErrorEmail] = useState(false);
@@ -77,6 +77,11 @@ function Login() {
       setCheckMessageErrorPassword(false);
     }
   };
+  const handleShowPassword = () => {
+    if (password.current.type === "password") {
+      password.current.type = "text";
+    } else password.current.type = "password";
+  };
   return (
     <div className={clsx(styles.wrapper)}>
       <div className={clsx(styles.content)}>
@@ -131,6 +136,11 @@ function Login() {
                   value={valuePassword}
                   onChange={(e) => setValuePassword(e.target.value)}
                 />
+                <VisibilityIcon
+                  className={clsx(styles.visibility)}
+                  style={{ display: valuePassword ? "block" : "none" }}
+                  onClick={handleShowPassword}
+                />
                 <span
                   className={clsx(styles.errorPassword)}
                   style={{
@@ -183,5 +193,5 @@ function Login() {
       </div>
     </div>
   );
-}
+};
 export default Login;

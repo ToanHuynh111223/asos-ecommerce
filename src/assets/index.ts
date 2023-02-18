@@ -9,4 +9,13 @@ export const logo = [
     require("./logo/russia.svg"),
     require("./logo/spain.svg"),
     require("./logo/sweden.svg"),
+    require("./logo/adidas.avif"),
+    require("./logo/tommy.webp"),
+    require("./logo/north-face.avif"),
+    require("./logo/carhartt.avif"),
+    require("./logo/ellesse.avif"),
+    require("./logo/dr-martens.avif")
+];
+export const banner = [
+    require("./banner/outlet.webp")
 ];
