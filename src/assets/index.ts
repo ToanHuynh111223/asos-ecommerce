@@ -14,8 +14,16 @@ export const logo = [
     require("./logo/north-face.avif"),
     require("./logo/carhartt.avif"),
     require("./logo/ellesse.avif"),
-    require("./logo/dr-martens.avif")
+    require("./logo/dr-martens.avif"),
+    require("./logo/vn.png")
 ];
 export const banner = [
     require("./banner/outlet.webp")
 ];
+export const payBank = [
+    require("./payBank/visa.webp"),
+    require("./payBank/visa-electron.webp"),
+    require("./payBank/pay-pal.webp"),
+    require("./payBank/mastercard.webp"),
+    require("./payBank/american-express.webp")
+]
