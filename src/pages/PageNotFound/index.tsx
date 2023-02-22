@@ -2,10 +2,12 @@ import clsx from "clsx";
 import styles from "./PageNotFound.module.scss";
 import { Link } from "react-router-dom";
 import { logo } from "../../assets";
+import { useLocation } from "react-router-dom";
 //import tabs
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 const PageNotFound: React.FC = () => {
+  let location = useLocation().pathname;
   return (
     <div className={clsx(styles.errorMessage)}>
       <svg
@@ -68,7 +70,9 @@ const PageNotFound: React.FC = () => {
                 This page couldn’t be loaded for some reason, give it a retry or
                 come back later
               </p>
-              <Link to="/women">Go to homepage</Link>
+              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+                Go to homepage
+              </Link>
             </div>
           </TabPanel>
           <TabPanel>
@@ -78,7 +82,9 @@ const PageNotFound: React.FC = () => {
                 Denne side kunne ikke indlæses af en eller anden grund. Prøv
                 igen, eller vend tilbage senere
               </p>
-              <Link to="/women">GÅ TIL STARTSIDEN</Link>
+              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+                GÅ TIL STARTSIDEN
+              </Link>
             </div>
           </TabPanel>
 
@@ -89,7 +95,9 @@ const PageNotFound: React.FC = () => {
                 Cette page n'a pas pu être chargée, veuillez essayer à nouveau
                 ou revenir plus tard
               </p>
-              <Link to="/women">RETOUR À LA PAGE D'ACCUEIL</Link>
+              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+                RETOUR À LA PAGE D'ACCUEIL
+              </Link>
             </div>
           </TabPanel>
           <TabPanel>
@@ -99,7 +107,9 @@ const PageNotFound: React.FC = () => {
                 Diese Seite konnte aus irgendeinem Grund nicht geladen werden,
                 bitte versuche es erneut oder schau später nochmal vorbei.
               </p>
-              <Link to="/women">ZURÜCK ZUR STARTSEITE</Link>
+              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+                ZURÜCK ZUR STARTSEITE
+              </Link>
             </div>
           </TabPanel>
 
@@ -110,7 +120,9 @@ const PageNotFound: React.FC = () => {
                 Ci sono problemi nel caricamento della pagina, riprova o torna
                 più tardi
               </p>
-              <Link to="/women">VOLVER A PÁGINA DE INICIO</Link>
+              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+                VOLVER A PÁGINA DE INICIO
+              </Link>
             </div>
           </TabPanel>
           <TabPanel>
@@ -120,7 +132,9 @@ const PageNotFound: React.FC = () => {
                 Deze pagina kan niet geladen worden, probeer het opnieuw of kom
                 later terug
               </p>
-              <Link to="/women">НGA NAAR DE HOMEPAGIN</Link>
+              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+                НGA NAAR DE HOMEPAGIN
+              </Link>
             </div>
           </TabPanel>
 
@@ -131,7 +145,9 @@ const PageNotFound: React.FC = () => {
                 Ta strona nie mogła zostać załadowana z jakiegoś powodu. Spróbuj
                 ponownie lub wróć później
               </p>
-              <Link to="/women">PRZEJDŹ DO STRONY GŁÓWNEJ</Link>
+              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+                PRZEJDŹ DO STRONY GŁÓWNEJ
+              </Link>
             </div>
           </TabPanel>
           <TabPanel>
@@ -141,7 +157,9 @@ const PageNotFound: React.FC = () => {
                 Эта страница почему-то не загружается. Повторите попытку сейчас
                 или чуть позже
               </p>
-              <Link to="/women">НАЗАД НА ГЛАВНУЮ</Link>
+              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+                НАЗАД НА ГЛАВНУЮ
+              </Link>
             </div>
           </TabPanel>
           <TabPanel>
@@ -151,7 +169,9 @@ const PageNotFound: React.FC = () => {
                 Por algún motivo no hemos podido cargar esta página. Inténtalo
                 de nuevo o vuelve más tarde
               </p>
-              <Link to="/women">VOLVER A PÁGINA DE INICIO</Link>
+              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+                VOLVER A PÁGINA DE INICIO
+              </Link>
             </div>
           </TabPanel>
           <TabPanel>
@@ -161,7 +181,9 @@ const PageNotFound: React.FC = () => {
                 Av någon anledning gick det inte att visa den här sidan, testa
                 igen eller kom tillbaka senare.
               </p>
-              <Link to="/women">GÅ TILL HEMSIDAN</Link>
+              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+                GÅ TILL HEMSIDAN
+              </Link>
             </div>
           </TabPanel>
         </Tabs>

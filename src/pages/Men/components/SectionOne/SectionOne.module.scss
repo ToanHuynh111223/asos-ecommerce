@@ -1,0 +1,36 @@
+.sectionOne {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.highlight {
+  position: absolute;
+  top: 320px;
+  left: 489px;
+  span {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 50px;
+  }
+}
+.shop {
+  position: absolute;
+  bottom: 70px;
+  left: 580px;
+  a {
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 16px;
+    transition: all 0.4s ease-in-out;
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}

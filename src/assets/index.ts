@@ -26,4 +26,27 @@ export const payBank = [
     require("./payBank/pay-pal.webp"),
     require("./payBank/mastercard.webp"),
     require("./payBank/american-express.webp")
+];
+export const imgSectionOne =[
+    require("./imgSectionOne/women.avif"),
+    require("./imgSectionOne/men.avif")
+]
+export const imgSectionTwo =[
+    require("./imgSectionTwo/women1.avif"),
+    require("./imgSectionTwo/women2.webp"),
+    require("./imgSectionTwo/women3.avif"),
+    require("./imgSectionTwo/women4.avif"),
+    require("./imgSectionTwo/men1.avif"),
+    require("./imgSectionTwo/men2.avif"),
+    require("./imgSectionTwo/men3.avif"),
+    require("./imgSectionTwo/men4.avif")
+];
+export const imgSectionDenim =[
+    require("./imgSectionDenim/jean.avif")
+];
+export const imgSectionThree =[
+    require("./imgSectionThree/women1.avif"),
+    require("./imgSectionThree/women2.avif"),
+    require("./imgSectionThree/men1.avif"),
+    require("./imgSectionThree/men2.avif")
 ]

@@ -11,32 +11,32 @@ const TrendingBrands: React.FC = () => {
       <div className={clsx(styles.logoBar)}>
         <ul>
           <li>
-            <Link to="/tommy">
+            <Link to="*">
               <img src={logo[11]} alt="tommy-logo" />
             </Link>
           </li>
           <li>
-            <Link to="/north-face">
+            <Link to="*">
               <img src={logo[12]} alt="north-face-logo" />
             </Link>
           </li>
           <li>
-            <Link to="/adidas">
+            <Link to="*">
               <img src={logo[10]} alt="adidas-logo" />
             </Link>
           </li>
           <li>
-            <Link to="carhartt">
+            <Link to="*">
               <img src={logo[13]} alt="carhartt-logo" />
             </Link>
           </li>
           <li>
-            <Link to="ellesse">
+            <Link to="*">
               <img src={logo[14]} alt="ellesse-logo" />
             </Link>
           </li>
           <li>
-            <Link to="/martens">
+            <Link to="*">
               <img src={logo[15]} alt="martens-logo" />
             </Link>
           </li>

@@ -15,17 +15,17 @@ const Footer: React.FC = () => {
       <div className={clsx(styles.footerWrapperTop)}>
         <ul className={clsx(styles.social)}>
           <li>
-            <Link to="/facebook">
+            <Link to="*">
               <FacebookIcon className={clsx(styles.facebookIcon)} />
             </Link>
           </li>
           <li>
-            <Link to="/instagram">
+            <Link to="*">
               <InstagramIcon className={clsx(styles.instagramIcon)} />
             </Link>
           </li>
           <li>
-            <Link to="/twitter">
+            <Link to="*">
               <TwitterIcon />
             </Link>
           </li>

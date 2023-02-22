@@ -345,7 +345,7 @@ const Register: React.FC = () => {
             </div>
           </div>
           <div className={clsx(styles.loginForm)}>
-            <form>
+            <form action="">
               <div className={clsx(styles.formGroup)}>
                 <label>EMAIL ADDRESS:</label>
                 <input
@@ -353,6 +353,7 @@ const Register: React.FC = () => {
                   onBlur={handleCheckUserName}
                   value={valueUserName}
                   onChange={(e) => setValueUserName(e.target.value)}
+                  name="email"
                 />
                 <span
                   className={clsx(styles.errorEmail)}
@@ -373,6 +374,7 @@ const Register: React.FC = () => {
                   onBlur={handleCheckFirstName}
                   value={valueFirstName}
                   onChange={(e) => setValueFirstName(e.target.value)}
+                  name="first-name"
                 />
                 <span
                   className={clsx(styles.errorFirstName)}
@@ -391,6 +393,7 @@ const Register: React.FC = () => {
                   onBlur={handleCheckLastName}
                   value={valueLastName}
                   onChange={(e) => setValueLastName(e.target.value)}
+                  name="last-name"
                 />
                 <span
                   className={clsx(styles.errorLastName)}
@@ -410,6 +413,7 @@ const Register: React.FC = () => {
                   type="password"
                   value={valuePassword}
                   onChange={(e) => setValuePassword(e.target.value)}
+                  name="password"
                 />
                 <VisibilityIcon
                   className={clsx(styles.visibility)}

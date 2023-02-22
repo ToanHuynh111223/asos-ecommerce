@@ -106,7 +106,7 @@ const Login: React.FC = () => {
             </div>
           </div>
           <div className={clsx(styles.loginForm)}>
-            <form>
+            <form action="">
               <div className={clsx(styles.formGroup)}>
                 <label>EMAIL ADDRESS:</label>
                 <input
@@ -114,6 +114,7 @@ const Login: React.FC = () => {
                   onBlur={handleCheckUserName}
                   value={valueUserName}
                   onChange={(e) => setValueUserName(e.target.value)}
+                  name="email"
                 />
                 <span
                   className={clsx(styles.errorEmail)}
@@ -135,6 +136,7 @@ const Login: React.FC = () => {
                   type="password"
                   value={valuePassword}
                   onChange={(e) => setValuePassword(e.target.value)}
+                  name="password"
                 />
                 <VisibilityIcon
                   className={clsx(styles.visibility)}

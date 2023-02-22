@@ -1,0 +1,45 @@
+.sectionDenim {
+  margin-bottom: 48px;
+  height: 188px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.title {
+  padding: 24px 0 8px;
+  text-align: center;
+  z-index: 999;
+  position: relative;
+  top: -190px;
+  h2 {
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+  p {
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+  }
+  button {
+    margin-top: 24px;
+    padding: 10px 28px;
+    background-color: #ff5400;
+    color: #000;
+    border: 2px solid #ff5400;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    &:hover {
+      background-color: #fff;
+      color: #ff5400;
+      border-color: #fff;
+    }
+  }
+}

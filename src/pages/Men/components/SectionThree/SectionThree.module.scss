@@ -1,0 +1,39 @@
+.sectionThree {
+  padding: 0 32px;
+  margin: 0 14px 48px;
+}
+.wrapper {
+  width: 498px;
+  text-decoration: none;
+}
+.content {
+  width: 498px;
+  text-align: center;
+  padding: 16px 32px 0;
+  h2 {
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #000;
+  }
+  p {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+  }
+  button {
+    margin-top: 16px;
+    cursor: pointer;
+    padding: 16px 10px;
+    border: 2px solid #000;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+    transition: all 0.4s ease-in-out;
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}

@@ -1,10 +1,22 @@
 import { Link } from "react-router-dom";
+import styles from "./Header.module.scss";
+import clsx from "clsx";
 import ListNav from "./components/ListNav";
 import Search from "./components/Search";
 import Widgets from "./components/Widgets";
+import { useState, useEffect } from "react";
 const Header: React.FC = () => {
+  const [showHeader, setShowHeader] = useState(false);
+  useEffect(() => {
+    const handleScrollAddHeader = () => {
+      setShowHeader(window.scrollY >= 120);
+    };
+    window.addEventListener("scroll", handleScrollAddHeader);
+    return () => window.removeEventListener("scroll", handleScrollAddHeader);
+  }, []);
   return (
     <header
+      className={showHeader ? clsx(styles.scrollAnimation) : ""}
       style={{ padding: "0 32px", display: "flex", backgroundColor: "#2d2d2d" }}
     >
       <Link
