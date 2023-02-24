@@ -1,8 +1,137 @@
 {
-    "jean-women": [
-      { "id": 1, "name": "Topshop Jamie jeans in sand"}
-    ],
-    "jean-men": [
-      { "id": 1, "name": "Topman stretch taper jeans in black"}
-    ]
-  }
+  "jean-women": [
+    {
+      "id": 1,
+      "name": "Topshop Jamie jeans in blue black",
+      "costOld": "$71.06",
+      "costCurrent": "$56.85",
+      "salePercent": "-19%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 0,
+      "srcImageHover": 1
+    },
+    {
+      "id": 2,
+      "name": "Topshop Jamie jeans in washed black",
+      "costOld": "$71.06",
+      "costCurrent": "$56.85",
+      "salePercent": "-19%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 2,
+      "srcImageHover": 3
+    },
+    {
+      "id": 3,
+      "name": "Topshop Jamie jeans in sand",
+      "costOld": "$71.06",
+      "costCurrent": "$60.80",
+      "salePercent": "-14%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 4,
+      "srcImageHover": 5
+    },
+    {
+      "id": 4,
+      "name": "Topshop Jamie jeans in grey",
+      "costOld": "$71.06",
+      "costCurrent": "$56.85",
+      "salePercent": "-19%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 6,
+      "srcImageHover": 7
+    },
+    {
+      "id": 5,
+      "name": "Topshop Curve Mom jeans in washed black",
+      "costOld": "$77.30",
+      "costCurrent": "$58.43",
+      "salePercent": "-24%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 8,
+      "srcImageHover": 9
+    },
+    {
+      "id": 6,
+      "name": "Topshop relaxed flare jeans in dirty dark grey",
+      "costOld": "$77.30",
+      "costCurrent": "$58.43",
+      "salePercent": "-24%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 10,
+      "srcImageHover": 11
+    },
+    {
+      "id": 7,
+      "name": "Topshop relaxed flare jeans in washed black",
+      "costOld": "$77.30",
+      "costCurrent": "$58.43",
+      "salePercent": "-24%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 12,
+      "srcImageHover": 13
+    },
+    {
+      "id": 8,
+      "name": "Topshop Curve premium Mom jeans in  washed black",
+      "costOld": "$100.00",
+      "costCurrent": "$84.00",
+      "salePercent": "-26%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 14,
+      "srcImageHover": 15
+    },
+    {
+      "id": 9,
+      "name": "Topshop Curve Jamie flare jeans in rich blue",
+      "costOld": "$77.30",
+      "costCurrent": "$62.37",
+      "salePercent": "-19%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 16,
+      "srcImageHover": 17
+    },
+    {
+      "id": 10,
+      "name": "Topshop Mom jean in bleach",
+      "costOld": "$77.30",
+      "costCurrent": "$66.32",
+      "salePercent": "-14%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 18,
+      "srcImageHover": 19
+    },
+    {
+      "id": 11,
+      "name": "Topshop Maternity overbump straight jeans in mid blue",
+      "costOld": "$100.00",
+      "costCurrent": "$81.00",
+      "salePercent": "-19%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 20,
+      "srcImageHover": 21
+    },
+    {
+      "id": 12,
+      "name": "Topshop Kort jeans in mid blue",
+      "costOld": "$77.30",
+      "costCurrent": "$58.43",
+      "salePercent": "-24%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 22,
+      "srcImageHover": 23
+    }
+  ],
+  "jean-men": [{ "id": 1, "name": "Topman stretch taper jeans in black" }]
+}

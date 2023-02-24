@@ -9,9 +9,7 @@ const ListNav: React.FC = () => {
       <li
         style={{
           backgroundColor:
-            location.pathname.slice(1, location.pathname.length) === "women"
-              ? "#474747"
-              : "",
+            location.pathname.search("women") === 1 ? "#474747" : "",
         }}
       >
         <Link to="/women">WOMEN</Link>
@@ -19,9 +17,7 @@ const ListNav: React.FC = () => {
       <li
         style={{
           backgroundColor:
-            location.pathname.slice(1, location.pathname.length) === "men"
-              ? "#474747"
-              : "",
+            location.pathname.search("men") === 1 ? "#474747" : "",
         }}
       >
         <Link to="/men">MEN</Link>
