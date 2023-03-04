@@ -13,7 +13,10 @@ const JeanWomen: React.FC = () => {
           return (
             <Grid item md={3} key={index}>
               <div className={clsx(styles.product)}>
-                <Link to="*" style={{ textDecoration: "none" }}>
+                <Link
+                  to={`/women/jean-product-details/${product.name}`}
+                  style={{ textDecoration: "none" }}
+                >
                   <div className={clsx(styles.containerImage)}>
                     <img
                       src={imgJeanProductWomen[product.srcImage]}

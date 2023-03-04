@@ -133,5 +133,140 @@
       "srcImageHover": 23
     }
   ],
-  "jean-men": [{ "id": 1, "name": "Topman stretch taper jeans in black" }]
+  "jean-men": [
+    {
+      "id": 1,
+      "name": "Topman stretch taper jeans in black",
+      "costOld": "$71.06",
+      "costCurrent": "$56.85",
+      "salePercent": "-19%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 0,
+      "srcImageHover": 1,
+      "srcImageDetails": 0
+    },
+    {
+      "id": 2,
+      "name": "Topman stretch skinny jeans in mid wash",
+      "costOld": "$71.06",
+      "costCurrent": "$56.85",
+      "salePercent": "-19%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 2,
+      "srcImageHover": 3,
+      "srcImageDetails": 1
+    },
+    {
+      "id": 3,
+      "name": "Topman super spray on jeans in black",
+      "costOld": "$71.06",
+      "costCurrent": "$60.80",
+      "salePercent": "-14%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 4,
+      "srcImageHover": 5
+    },
+    {
+      "id": 4,
+      "name": "Topman spray on jeans in white",
+      "costOld": "$71.06",
+      "costCurrent": "$56.85",
+      "salePercent": "-19%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 6,
+      "srcImageHover": 7
+    },
+    {
+      "id": 5,
+      "name": "Topman essential spray on jeans in mid wash",
+      "costOld": "$77.30",
+      "costCurrent": "$58.43",
+      "salePercent": "-24%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 8,
+      "srcImageHover": 9
+    },
+    {
+      "id": 6,
+      "name": "Topman stretch slim jeans in mid wash green cast",
+      "costOld": "$77.30",
+      "costCurrent": "$58.43",
+      "salePercent": "-24%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 10,
+      "srcImageHover": 11
+    },
+    {
+      "id": 7,
+      "name": "Topman relaxed jean in white",
+      "costOld": "$77.30",
+      "costCurrent": "$58.43",
+      "salePercent": "-24%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 12,
+      "srcImageHover": 13
+    },
+    {
+      "id": 8,
+      "name": "Topman straight let down hem jeans in black",
+      "costOld": "$100.00",
+      "costCurrent": "$84.00",
+      "salePercent": "-26%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 14,
+      "srcImageHover": 15
+    },
+    {
+      "id": 9,
+      "name": "Topman relaxed spliced acid wash jeans in grey and pink",
+      "costOld": "$77.30",
+      "costCurrent": "$62.37",
+      "salePercent": "-19%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 16,
+      "srcImageHover": 17
+    },
+    {
+      "id": 10,
+      "name": "Topman straight jeans in green cast tint",
+      "costOld": "$77.30",
+      "costCurrent": "$66.32",
+      "salePercent": "-14%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 18,
+      "srcImageHover": 19
+    },
+    {
+      "id": 11,
+      "name": "Topman straight flared pannel jeans in brown",
+      "costOld": "$100.00",
+      "costCurrent": "$81.00",
+      "salePercent": "-19%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 20,
+      "srcImageHover": 21
+    },
+    {
+      "id": 12,
+      "name": "Topman straight let down hem jeans in mid wash",
+      "costOld": "$77.30",
+      "costCurrent": "$58.43",
+      "salePercent": "-24%",
+      "sellingFast": "SELLING FAST",
+      "moreColours": "MORE COLOURS",
+      "srcImage": 22,
+      "srcImageHover": 23
+    }
+  ]
 }

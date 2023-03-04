@@ -1,0 +1,86 @@
+.wrapperMen {
+  padding: 40px 32px 36px;
+}
+
+.containerImage {
+  width: 100%;
+  position: relative;
+  transition: all 0.3s ease-in;
+  &:hover .hoverImg {
+    display: inline;
+  }
+  img {
+    width: 100%;
+  }
+  .hoverImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  .sellingFast {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    padding: 4px 12px 4px 16px;
+    letter-spacing: 0.8px;
+    background-color: #555554;
+    border-radius: 14px 0 0 14px;
+    line-height: 20px;
+    right: 0;
+    bottom: 60px;
+  }
+  .moreColours {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+    padding: 5px 7px;
+    letter-spacing: 0.8px;
+    background-color: #fbfafa;
+    left: 0;
+    bottom: 20px;
+  }
+  .salePercent {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 400;
+    color: red;
+    padding: 2px 4px;
+    letter-spacing: 0.8px;
+    background-color: #fdfdfd;
+    left: 0;
+    top: 20px;
+  }
+}
+.productDescription {
+  padding-top: 8px;
+  .productName {
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    line-height: 22px;
+    height: 30px;
+    margin-bottom: 30px;
+  }
+  .productCost {
+    display: flex;
+    .costOld {
+      text-decoration: line-through;
+      color: #ccc;
+      font-size: 14px;
+      font-weight: 400;
+      padding-right: 4px;
+    }
+    .costCurrent {
+      font-weight: 800;
+      font-size: 15px;
+      color: #d01345;
+      letter-spacing: 0.8px;
+    }
+    .costCurrentNoSale {
+      color: #666;
+    }
+  }
+}

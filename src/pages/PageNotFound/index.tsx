@@ -70,7 +70,7 @@ const PageNotFound: React.FC = () => {
                 This page couldn’t be loaded for some reason, give it a retry or
                 come back later
               </p>
-              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+              <Link to={location.search("men") === 1 ? "/men" : "/women"}>
                 Go to homepage
               </Link>
             </div>
@@ -82,7 +82,7 @@ const PageNotFound: React.FC = () => {
                 Denne side kunne ikke indlæses af en eller anden grund. Prøv
                 igen, eller vend tilbage senere
               </p>
-              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+              <Link to={location.search("men") === 1 ? "/men" : "/women"}>
                 GÅ TIL STARTSIDEN
               </Link>
             </div>
@@ -95,7 +95,7 @@ const PageNotFound: React.FC = () => {
                 Cette page n'a pas pu être chargée, veuillez essayer à nouveau
                 ou revenir plus tard
               </p>
-              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+              <Link to={location.search("men") === 1 ? "/men" : "/women"}>
                 RETOUR À LA PAGE D'ACCUEIL
               </Link>
             </div>
@@ -107,7 +107,7 @@ const PageNotFound: React.FC = () => {
                 Diese Seite konnte aus irgendeinem Grund nicht geladen werden,
                 bitte versuche es erneut oder schau später nochmal vorbei.
               </p>
-              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+              <Link to={location.search("men") === 1 ? "/men" : "/women"}>
                 ZURÜCK ZUR STARTSEITE
               </Link>
             </div>
@@ -120,7 +120,7 @@ const PageNotFound: React.FC = () => {
                 Ci sono problemi nel caricamento della pagina, riprova o torna
                 più tardi
               </p>
-              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+              <Link to={location.search("men") === 1 ? "/men" : "/women"}>
                 VOLVER A PÁGINA DE INICIO
               </Link>
             </div>
@@ -132,7 +132,7 @@ const PageNotFound: React.FC = () => {
                 Deze pagina kan niet geladen worden, probeer het opnieuw of kom
                 later terug
               </p>
-              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+              <Link to={location.search("men") === 1 ? "/men" : "/women"}>
                 НGA NAAR DE HOMEPAGIN
               </Link>
             </div>
@@ -145,7 +145,7 @@ const PageNotFound: React.FC = () => {
                 Ta strona nie mogła zostać załadowana z jakiegoś powodu. Spróbuj
                 ponownie lub wróć później
               </p>
-              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+              <Link to={location.search("men") === 1 ? "/men" : "/women"}>
                 PRZEJDŹ DO STRONY GŁÓWNEJ
               </Link>
             </div>
@@ -157,7 +157,7 @@ const PageNotFound: React.FC = () => {
                 Эта страница почему-то не загружается. Повторите попытку сейчас
                 или чуть позже
               </p>
-              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+              <Link to={location.search("men") === 1 ? "/men" : "/women"}>
                 НАЗАД НА ГЛАВНУЮ
               </Link>
             </div>
@@ -169,7 +169,7 @@ const PageNotFound: React.FC = () => {
                 Por algún motivo no hemos podido cargar esta página. Inténtalo
                 de nuevo o vuelve más tarde
               </p>
-              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+              <Link to={location.search("men") === 1 ? "/men" : "/women"}>
                 VOLVER A PÁGINA DE INICIO
               </Link>
             </div>
@@ -181,7 +181,7 @@ const PageNotFound: React.FC = () => {
                 Av någon anledning gick det inte att visa den här sidan, testa
                 igen eller kom tillbaka senare.
               </p>
-              <Link to={location.search("men") === 1 ? "/men" : "women"}>
+              <Link to={location.search("men") === 1 ? "/men" : "/women"}>
                 GÅ TILL HEMSIDAN
               </Link>
             </div>

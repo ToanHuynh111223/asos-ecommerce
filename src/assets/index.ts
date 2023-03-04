@@ -1,78 +1,114 @@
 export const logo = [
-    require("./logo/unitedKingdom.svg"),
-    require("./logo/demark.svg"),
-    require("./logo/france.svg"),
-    require("./logo/germary.svg"),
-    require("./logo/italy.svg"),
-    require("./logo/netherlands.svg"),
-    require("./logo/poland.svg"),
-    require("./logo/russia.svg"),
-    require("./logo/spain.svg"),
-    require("./logo/sweden.svg"),
-    require("./logo/adidas.avif"),
-    require("./logo/tommy.webp"),
-    require("./logo/north-face.avif"),
-    require("./logo/carhartt.avif"),
-    require("./logo/ellesse.avif"),
-    require("./logo/dr-martens.avif"),
-    require("./logo/vn.png")
+  require("./logo/unitedKingdom.svg"),
+  require("./logo/demark.svg"),
+  require("./logo/france.svg"),
+  require("./logo/germary.svg"),
+  require("./logo/italy.svg"),
+  require("./logo/netherlands.svg"),
+  require("./logo/poland.svg"),
+  require("./logo/russia.svg"),
+  require("./logo/spain.svg"),
+  require("./logo/sweden.svg"),
+  require("./logo/adidas.avif"),
+  require("./logo/tommy.webp"),
+  require("./logo/north-face.avif"),
+  require("./logo/carhartt.avif"),
+  require("./logo/ellesse.avif"),
+  require("./logo/dr-martens.avif"),
+  require("./logo/vn.png"),
 ];
-export const banner = [
-    require("./banner/outlet.webp")
-];
+export const banner = [require("./banner/outlet.webp")];
 export const payBank = [
-    require("./payBank/visa.webp"),
-    require("./payBank/visa-electron.webp"),
-    require("./payBank/pay-pal.webp"),
-    require("./payBank/mastercard.webp"),
-    require("./payBank/american-express.webp")
+  require("./payBank/visa.webp"),
+  require("./payBank/visa-electron.webp"),
+  require("./payBank/pay-pal.webp"),
+  require("./payBank/mastercard.webp"),
+  require("./payBank/american-express.webp"),
 ];
-export const imgSectionOne =[
-    require("./imgSectionOne/women.avif"),
-    require("./imgSectionOne/men.avif")
-]
-export const imgSectionTwo =[
-    require("./imgSectionTwo/women1.avif"),
-    require("./imgSectionTwo/women2.webp"),
-    require("./imgSectionTwo/women3.avif"),
-    require("./imgSectionTwo/women4.avif"),
-    require("./imgSectionTwo/men1.avif"),
-    require("./imgSectionTwo/men2.avif"),
-    require("./imgSectionTwo/men3.avif"),
-    require("./imgSectionTwo/men4.avif")
+export const imgSectionOne = [
+  require("./imgSectionOne/women.avif"),
+  require("./imgSectionOne/men.avif"),
 ];
-export const imgSectionDenim =[
-    require("./imgSectionDenim/jean.avif")
+export const imgSectionTwo = [
+  require("./imgSectionTwo/women1.avif"),
+  require("./imgSectionTwo/women2.webp"),
+  require("./imgSectionTwo/women3.avif"),
+  require("./imgSectionTwo/women4.avif"),
+  require("./imgSectionTwo/men1.avif"),
+  require("./imgSectionTwo/men2.avif"),
+  require("./imgSectionTwo/men3.avif"),
+  require("./imgSectionTwo/men4.avif"),
 ];
-export const imgSectionThree =[
-    require("./imgSectionThree/women1.avif"),
-    require("./imgSectionThree/women2.avif"),
-    require("./imgSectionThree/men1.avif"),
-    require("./imgSectionThree/men2.avif")
+export const imgSectionDenim = [require("./imgSectionDenim/jean.avif")];
+export const imgSectionThree = [
+  require("./imgSectionThree/women1.avif"),
+  require("./imgSectionThree/women2.avif"),
+  require("./imgSectionThree/men1.avif"),
+  require("./imgSectionThree/men2.avif"),
 ];
-export const imgJeanProductWomen =[
-    require("./imgJeanProductWomen/j1.jpg"),
-    require("./imgJeanProductWomen/j2.webp"),
-    require("./imgJeanProductWomen/j3.webp"),
-    require("./imgJeanProductWomen/j4.webp"),
-    require("./imgJeanProductWomen/j5.webp"),
-    require("./imgJeanProductWomen/j6.webp"),
-    require("./imgJeanProductWomen/j7.webp"),
-    require("./imgJeanProductWomen/j8.webp"),
-    require("./imgJeanProductWomen/j9.webp"),
-    require("./imgJeanProductWomen/j10.webp"),
-    require("./imgJeanProductWomen/j11.webp"),
-    require("./imgJeanProductWomen/j12.webp"),
-    require("./imgJeanProductWomen/j13.webp"),
-    require("./imgJeanProductWomen/j14.webp"),
-    require("./imgJeanProductWomen/j15.webp"),
-    require("./imgJeanProductWomen/j16.webp"),
-    require("./imgJeanProductWomen/j17.webp"),
-    require("./imgJeanProductWomen/j18.webp"),
-    require("./imgJeanProductWomen/j19.webp"),
-    require("./imgJeanProductWomen/j20.webp"),
-    require("./imgJeanProductWomen/j21.webp"),
-    require("./imgJeanProductWomen/j22.webp"),
-    require("./imgJeanProductWomen/j23.webp"),
-    require("./imgJeanProductWomen/j24.webp"),
-]
+export const imgJeanProductWomen = [
+  require("./imgJeanProductWomen/j1.jpg"),
+  require("./imgJeanProductWomen/j2.webp"),
+  require("./imgJeanProductWomen/j3.webp"),
+  require("./imgJeanProductWomen/j4.webp"),
+  require("./imgJeanProductWomen/j5.webp"),
+  require("./imgJeanProductWomen/j6.webp"),
+  require("./imgJeanProductWomen/j7.webp"),
+  require("./imgJeanProductWomen/j8.webp"),
+  require("./imgJeanProductWomen/j9.webp"),
+  require("./imgJeanProductWomen/j10.webp"),
+  require("./imgJeanProductWomen/j11.webp"),
+  require("./imgJeanProductWomen/j12.webp"),
+  require("./imgJeanProductWomen/j13.webp"),
+  require("./imgJeanProductWomen/j14.webp"),
+  require("./imgJeanProductWomen/j15.webp"),
+  require("./imgJeanProductWomen/j16.webp"),
+  require("./imgJeanProductWomen/j17.webp"),
+  require("./imgJeanProductWomen/j18.webp"),
+  require("./imgJeanProductWomen/j19.webp"),
+  require("./imgJeanProductWomen/j20.webp"),
+  require("./imgJeanProductWomen/j21.webp"),
+  require("./imgJeanProductWomen/j22.webp"),
+  require("./imgJeanProductWomen/j23.webp"),
+  require("./imgJeanProductWomen/j24.webp"),
+];
+export const imgJeanProductMen = [
+  require("./imgJeanProductMen/j1.webp"),
+  require("./imgJeanProductMen/j2.webp"),
+  require("./imgJeanProductMen/j3.webp"),
+  require("./imgJeanProductMen/j4.webp"),
+  require("./imgJeanProductMen/j5.jpg"),
+  require("./imgJeanProductMen/j6.webp"),
+  require("./imgJeanProductMen/j7.webp"),
+  require("./imgJeanProductMen/j8.webp"),
+  require("./imgJeanProductMen/j9.webp"),
+  require("./imgJeanProductMen/j10.webp"),
+  require("./imgJeanProductMen/j11.webp"),
+  require("./imgJeanProductMen/j12.webp"),
+  require("./imgJeanProductMen/j13.jpg"),
+  require("./imgJeanProductMen/j14.webp"),
+  require("./imgJeanProductMen/j15.webp"),
+  require("./imgJeanProductMen/j16.webp"),
+  require("./imgJeanProductMen/j17.webp"),
+  require("./imgJeanProductMen/j18.webp"),
+  require("./imgJeanProductMen/j19.webp"),
+  require("./imgJeanProductMen/j20.webp"),
+  require("./imgJeanProductMen/j21.webp"),
+  require("./imgJeanProductMen/j22.webp"),
+  require("./imgJeanProductMen/j23.webp"),
+  require("./imgJeanProductMen/j24.webp"),
+];
+export const imgJeanProductDetailsMen = [
+  {
+    "j2-1": require("./imgJeanProductDetailsMen/j2-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsMen/j2-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsMen/j2-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsMen/j2-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsMen/j2-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsMen/j2-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsMen/j2-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsMen/j2-4.webp"),
+  },
+];

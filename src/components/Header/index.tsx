@@ -5,8 +5,10 @@ import ListNav from "./components/ListNav";
 import Search from "./components/Search";
 import Widgets from "./components/Widgets";
 import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 const Header: React.FC = () => {
   const [showHeader, setShowHeader] = useState(false);
+  let location = useLocation().pathname;
   useEffect(() => {
     const handleScrollAddHeader = () => {
       setShowHeader(window.scrollY >= 120);
@@ -20,7 +22,7 @@ const Header: React.FC = () => {
       style={{ padding: "0 32px", display: "flex", backgroundColor: "#2d2d2d" }}
     >
       <Link
-        to="/women"
+        to={location.search("men") === 1 ? "/men" : "/women"}
         style={{
           padding: "0 20px",
           alignItems: "center",
