@@ -1,26 +1,39 @@
 import styles from "./JeanMenDetails.module.scss";
 import clsx from "clsx";
 import { imgJeanProductDetailsMen } from "../../../../assets";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Grid } from "@mui/material";
 import useAxios from "../../../../hooks/useAxios";
 import { Fragment } from "react";
 import LocalShippingIcon from "@mui/icons-material/LocalShipping";
 import { Link } from "react-router-dom";
-const JeanMenDetails: React.FC<{ name: any }> = ({ name }) => {
+import Alert from "@mui/material/Alert";
+import Stack from "@mui/material/Stack";
+const JeanMenDetails: React.FC<{ name: string }> = ({ name }) => {
   const data = useAxios("http://localhost:8000/jean-men", "GET");
   const [quantity, setQuantity] = useState(1);
   const [thumbnails, setThumbnails] = useState("j2-1");
+  const [toastMessage, setToastMessage] = useState(false);
   const handleDecreaseQuantity = () => {
     if (quantity === 1) {
       setQuantity(1);
     } else setQuantity(quantity - 1);
   };
   const handleIncreaseQuantity = () => {
-    if (quantity === 10) {
-      setQuantity(10);
+    if (quantity === 5) {
+      setQuantity(5);
     } else setQuantity(quantity + 1);
   };
+  const handleAddToastMessage = () => {
+    setToastMessage(true);
+  };
+  useEffect(() => {
+    if (toastMessage) {
+      setTimeout(() => {
+        setToastMessage(false);
+      }, 2500);
+    }
+  }, [toastMessage]);
   return (
     <>
       <div className={clsx(styles.product)}>
@@ -248,7 +261,10 @@ const JeanMenDetails: React.FC<{ name: any }> = ({ name }) => {
                           +
                         </button>
                       </div>
-                      <button className={clsx(styles.addToBag)}>
+                      <button
+                        className={clsx(styles.addToBag)}
+                        onClick={handleAddToastMessage}
+                      >
                         ADD TO BAG
                       </button>
                       <div className={clsx(styles.productDetails)}>
@@ -325,8 +341,25 @@ const JeanMenDetails: React.FC<{ name: any }> = ({ name }) => {
               );
             })}
         </Grid>
+        <Stack
+          sx={{ width: "100%" }}
+          spacing={2}
+          style={{
+            display: toastMessage ? "block" : "none",
+            position: "relative",
+          }}
+        >
+          <Alert
+            variant="filled"
+            severity="success"
+            className={clsx(styles.toastMessage)}
+          >
+            Add to cart successfully — check it out!
+          </Alert>
+        </Stack>
       </div>
     </>
   );
 };
+
 export default JeanMenDetails;

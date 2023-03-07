@@ -9,7 +9,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 0,
-      "srcImageHover": 1
+      "srcImageHover": 1,
+      "srcImageDetails": 0
     },
     {
       "id": 2,
@@ -20,7 +21,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 2,
-      "srcImageHover": 3
+      "srcImageHover": 3,
+      "srcImageDetails": 1
     },
     {
       "id": 3,
@@ -31,7 +33,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 4,
-      "srcImageHover": 5
+      "srcImageHover": 5,
+      "srcImageDetails": 2
     },
     {
       "id": 4,
@@ -42,7 +45,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 6,
-      "srcImageHover": 7
+      "srcImageHover": 7,
+      "srcImageDetails": 3
     },
     {
       "id": 5,
@@ -53,7 +57,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 8,
-      "srcImageHover": 9
+      "srcImageHover": 9,
+      "srcImageDetails": 4
     },
     {
       "id": 6,
@@ -64,7 +69,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 10,
-      "srcImageHover": 11
+      "srcImageHover": 11,
+      "srcImageDetails": 5
     },
     {
       "id": 7,
@@ -75,7 +81,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 12,
-      "srcImageHover": 13
+      "srcImageHover": 13,
+      "srcImageDetails": 6
     },
     {
       "id": 8,
@@ -86,7 +93,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 14,
-      "srcImageHover": 15
+      "srcImageHover": 15,
+      "srcImageDetails": 7
     },
     {
       "id": 9,
@@ -97,7 +105,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 16,
-      "srcImageHover": 17
+      "srcImageHover": 17,
+      "srcImageDetails": 8
     },
     {
       "id": 10,
@@ -108,7 +117,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 18,
-      "srcImageHover": 19
+      "srcImageHover": 19,
+      "srcImageDetails": 9
     },
     {
       "id": 11,
@@ -119,7 +129,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 20,
-      "srcImageHover": 21
+      "srcImageHover": 21,
+      "srcImageDetails": 10
     },
     {
       "id": 12,
@@ -130,7 +141,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 22,
-      "srcImageHover": 23
+      "srcImageHover": 23,
+      "srcImageDetails": 11
     }
   ],
   "jean-men": [
@@ -167,7 +179,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 4,
-      "srcImageHover": 5
+      "srcImageHover": 5,
+      "srcImageDetails": 2
     },
     {
       "id": 4,
@@ -178,7 +191,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 6,
-      "srcImageHover": 7
+      "srcImageHover": 7,
+      "srcImageDetails": 3
     },
     {
       "id": 5,
@@ -189,7 +203,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 8,
-      "srcImageHover": 9
+      "srcImageHover": 9,
+      "srcImageDetails": 4
     },
     {
       "id": 6,
@@ -200,7 +215,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 10,
-      "srcImageHover": 11
+      "srcImageHover": 11,
+      "srcImageDetails": 5
     },
     {
       "id": 7,
@@ -211,7 +227,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 12,
-      "srcImageHover": 13
+      "srcImageHover": 13,
+      "srcImageDetails": 6
     },
     {
       "id": 8,
@@ -222,7 +239,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 14,
-      "srcImageHover": 15
+      "srcImageHover": 15,
+      "srcImageDetails": 7
     },
     {
       "id": 9,
@@ -233,7 +251,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 16,
-      "srcImageHover": 17
+      "srcImageHover": 17,
+      "srcImageDetails": 8
     },
     {
       "id": 10,
@@ -244,7 +263,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 18,
-      "srcImageHover": 19
+      "srcImageHover": 19,
+      "srcImageDetails": 9
     },
     {
       "id": 11,
@@ -255,7 +275,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 20,
-      "srcImageHover": 21
+      "srcImageHover": 21,
+      "srcImageDetails": 10
     },
     {
       "id": 12,
@@ -266,7 +287,8 @@
       "sellingFast": "SELLING FAST",
       "moreColours": "MORE COLOURS",
       "srcImage": 22,
-      "srcImageHover": 23
+      "srcImageHover": 23,
+      "srcImageDetails": 11
     }
   ]
 }

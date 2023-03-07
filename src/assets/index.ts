@@ -100,15 +100,149 @@ export const imgJeanProductMen = [
 ];
 export const imgJeanProductDetailsMen = [
   {
-    "j2-1": require("./imgJeanProductDetailsMen/j2-1.webp"),
-    "j2-2": require("./imgJeanProductDetailsMen/j2-2.webp"),
-    "j2-3": require("./imgJeanProductDetailsMen/j2-3.webp"),
-    "j2-4": require("./imgJeanProductDetailsMen/j2-4.webp"),
+    "j2-1": require("./imgJeanProductDetailsMen/j1-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsMen/j1-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsMen/j1-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsMen/j1-4.webp"),
   },
   {
     "j2-1": require("./imgJeanProductDetailsMen/j2-1.webp"),
     "j2-2": require("./imgJeanProductDetailsMen/j2-2.webp"),
     "j2-3": require("./imgJeanProductDetailsMen/j2-3.webp"),
     "j2-4": require("./imgJeanProductDetailsMen/j2-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsMen/j3-1.jpg"),
+    "j2-2": require("./imgJeanProductDetailsMen/j3-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsMen/j3-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsMen/j3-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsMen/j4-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsMen/j4-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsMen/j4-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsMen/j4-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsMen/j5-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsMen/j5-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsMen/j5-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsMen/j5-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsMen/j6-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsMen/j6-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsMen/j6-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsMen/j6-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsMen/j7-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsMen/j7-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsMen/j7-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsMen/j7-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsMen/j8-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsMen/j8-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsMen/j8-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsMen/j8-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsMen/j9-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsMen/j9-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsMen/j9-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsMen/j9-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsMen/j10-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsMen/j10-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsMen/j10-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsMen/j10-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsMen/j11-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsMen/j11-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsMen/j11-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsMen/j11-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsMen/j12-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsMen/j12-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsMen/j12-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsMen/j12-4.webp"),
+  },
+];
+export const imgJeanProductDetailsWomen = [
+  {
+    "j2-1": require("./imgJeanProductDetailsWomen/j1-1.jpg"),
+    "j2-2": require("./imgJeanProductDetailsWomen/j1-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsWomen/j1-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsWomen/j1-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsWomen/j2-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsWomen/j2-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsWomen/j2-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsWomen/j2-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsWomen/j3-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsWomen/j3-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsWomen/j3-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsWomen/j3-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsWomen/j4-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsWomen/j4-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsWomen/j4-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsWomen/j4-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsWomen/j5-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsWomen/j5-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsWomen/j5-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsWomen/j5-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsWomen/j6-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsWomen/j6-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsWomen/j6-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsWomen/j6-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsWomen/j7-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsWomen/j7-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsWomen/j7-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsWomen/j7-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsWomen/j8-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsWomen/j8-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsWomen/j8-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsWomen/j8-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsWomen/j9-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsWomen/j9-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsWomen/j9-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsWomen/j9-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsWomen/j10-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsWomen/j10-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsWomen/j10-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsWomen/j10-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsWomen/j11-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsWomen/j11-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsWomen/j11-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsWomen/j11-4.webp"),
+  },
+  {
+    "j2-1": require("./imgJeanProductDetailsWomen/j12-1.webp"),
+    "j2-2": require("./imgJeanProductDetailsWomen/j12-2.webp"),
+    "j2-3": require("./imgJeanProductDetailsWomen/j12-3.webp"),
+    "j2-4": require("./imgJeanProductDetailsWomen/j12-4.webp"),
   },
 ];

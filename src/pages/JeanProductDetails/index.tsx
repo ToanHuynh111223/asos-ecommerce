@@ -5,7 +5,7 @@ import GlobalBanner from "../../components/GlobalBanner";
 import { useParams } from "react-router-dom";
 const JeanProductDetail: React.FC = () => {
   const location = useLocation().pathname;
-  const name = useParams().name;
+  const name: string | any = useParams().name;
   return (
     <div>
       <GlobalBanner />

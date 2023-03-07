@@ -60,7 +60,7 @@ const Widgets: React.FC = () => {
         </Link>
       </li>
       <li>
-        <Link to="">
+        <Link to="/cart">
           <button>
             <LocalMallOutlinedIcon sx={{ fontSize: 26 }} />
           </button>
