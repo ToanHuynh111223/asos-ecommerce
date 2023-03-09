@@ -1,11 +1,13 @@
-import styles from "./Cart.module.scss";
-import clsx from "clsx";
+import NoProduct from "./components/NoProduct";
+import ProductList from "./components/ProductList";
 import GlobalBanner from "../../components/GlobalBanner";
+import { useSelector } from "react-redux";
 const Cart: React.FC = () => {
+  const productList = useSelector((state: any) => state.cart);
   return (
     <div>
       <GlobalBanner />
-      <h1>Cart</h1>
+      {productList.length !== 0 ? <ProductList /> : <NoProduct />}
     </div>
   );
 };

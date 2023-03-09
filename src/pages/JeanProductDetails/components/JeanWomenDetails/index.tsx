@@ -2,6 +2,8 @@ import styles from "./JeanWomenDetails.module.scss";
 import clsx from "clsx";
 import { imgJeanProductDetailsWomen } from "../../../../assets";
 import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { addProduct, updateProduct } from "../../../../features/cart/cartSlice";
 import { Grid } from "@mui/material";
 import useAxios from "../../../../hooks/useAxios";
 import { Fragment } from "react";
@@ -11,6 +13,8 @@ import Alert from "@mui/material/Alert";
 import Stack from "@mui/material/Stack";
 const JeanWomenDetails: React.FC<{ name: string }> = ({ name }) => {
   const data = useAxios("http://localhost:8000/jean-women", "GET");
+  const dispatch = useDispatch();
+  const productList = useSelector((state: any) => state.cart);
   const [quantity, setQuantity] = useState(1);
   const [thumbnails, setThumbnails] = useState("j2-1");
   const [toastMessage, setToastMessage] = useState(false);
@@ -24,7 +28,28 @@ const JeanWomenDetails: React.FC<{ name: string }> = ({ name }) => {
       setQuantity(5);
     } else setQuantity(quantity + 1);
   };
-  const handleAddToastMessage = () => {
+  const handleAddProduct = (product: any, quantity: number) => {
+    const newProduct = addProduct({
+      name: product.name,
+      cost: product.costCurrent,
+      srcImage: product.srcImage,
+      type: product.type,
+      quantity: quantity,
+    });
+
+    //check the product already exists
+    const checkProduct = productList.filter(
+      (product: any) => product.name === newProduct.payload.name
+    );
+    if (checkProduct.length === 0) {
+      dispatch(newProduct);
+    } else {
+      const update = updateProduct({
+        name: product.name,
+        quantity: quantity,
+      });
+      dispatch(update);
+    }
     setToastMessage(true);
   };
   useEffect(() => {
@@ -263,7 +288,9 @@ const JeanWomenDetails: React.FC<{ name: string }> = ({ name }) => {
                       </div>
                       <button
                         className={clsx(styles.addToBag)}
-                        onClick={handleAddToastMessage}
+                        onClick={() => {
+                          handleAddProduct(product, quantity);
+                        }}
                       >
                         ADD TO BAG
                       </button>

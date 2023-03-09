@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  padding: 60px 10px 40px;
+  margin: 0 194px;
+}
+.bagTotal {
+  padding: 24px 30px 16px;
+  width: 100%;
+  background-color: #fff;
+}
+.signIn {
+  font-weight: 700;
+  font-size: 16px;
+  width: 100%;
+  color: #fff;
+  outline: none;
+  border: none;
+  background-color: #018849;
+  padding: 15px;
+  cursor: pointer;
+  &:hover {
+    background-color: #006637;
+  }
+}
+.subTotal {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0 20px;
+  font-weight: 900;
+  font-size: 16px;
+  letter-spacing: 1px;
+  span {
+    letter-spacing: 2px;
+    font-weight: 400;
+  }
+}
+.payBank {
+  margin-top: 16px;
+}
+.productList {
+  list-style: none;
+}
+.productGroup {
+  padding: 0 20px;
+  margin-top: 8px;
+  background-color: #fff;
+  &:first-child {
+    margin: 0;
+  }
+}

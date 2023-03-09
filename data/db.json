@@ -10,7 +10,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 0,
       "srcImageHover": 1,
-      "srcImageDetails": 0
+      "srcImageDetails": 0,
+      "type": "women"
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 2,
       "srcImageHover": 3,
-      "srcImageDetails": 1
+      "srcImageDetails": 1,
+      "type": "women"
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 4,
       "srcImageHover": 5,
-      "srcImageDetails": 2
+      "srcImageDetails": 2,
+      "type": "women"
     },
     {
       "id": 4,
@@ -46,7 +49,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 6,
       "srcImageHover": 7,
-      "srcImageDetails": 3
+      "srcImageDetails": 3,
+      "type": "women"
     },
     {
       "id": 5,
@@ -58,7 +62,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 8,
       "srcImageHover": 9,
-      "srcImageDetails": 4
+      "srcImageDetails": 4,
+      "type": "women"
     },
     {
       "id": 6,
@@ -70,7 +75,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 10,
       "srcImageHover": 11,
-      "srcImageDetails": 5
+      "srcImageDetails": 5,
+      "type": "women"
     },
     {
       "id": 7,
@@ -82,7 +88,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 12,
       "srcImageHover": 13,
-      "srcImageDetails": 6
+      "srcImageDetails": 6,
+      "type": "women"
     },
     {
       "id": 8,
@@ -94,7 +101,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 14,
       "srcImageHover": 15,
-      "srcImageDetails": 7
+      "srcImageDetails": 7,
+      "type": "women"
     },
     {
       "id": 9,
@@ -106,7 +114,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 16,
       "srcImageHover": 17,
-      "srcImageDetails": 8
+      "srcImageDetails": 8,
+      "type": "women"
     },
     {
       "id": 10,
@@ -118,7 +127,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 18,
       "srcImageHover": 19,
-      "srcImageDetails": 9
+      "srcImageDetails": 9,
+      "type": "women"
     },
     {
       "id": 11,
@@ -130,7 +140,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 20,
       "srcImageHover": 21,
-      "srcImageDetails": 10
+      "srcImageDetails": 10,
+      "type": "women"
     },
     {
       "id": 12,
@@ -142,7 +153,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 22,
       "srcImageHover": 23,
-      "srcImageDetails": 11
+      "srcImageDetails": 11,
+      "type": "women"
     }
   ],
   "jean-men": [
@@ -156,7 +168,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 0,
       "srcImageHover": 1,
-      "srcImageDetails": 0
+      "srcImageDetails": 0,
+      "type": "men"
     },
     {
       "id": 2,
@@ -168,7 +181,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 2,
       "srcImageHover": 3,
-      "srcImageDetails": 1
+      "srcImageDetails": 1,
+      "type": "men"
     },
     {
       "id": 3,
@@ -180,7 +194,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 4,
       "srcImageHover": 5,
-      "srcImageDetails": 2
+      "srcImageDetails": 2,
+      "type": "men"
     },
     {
       "id": 4,
@@ -192,7 +207,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 6,
       "srcImageHover": 7,
-      "srcImageDetails": 3
+      "srcImageDetails": 3,
+      "type": "men"
     },
     {
       "id": 5,
@@ -204,7 +220,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 8,
       "srcImageHover": 9,
-      "srcImageDetails": 4
+      "srcImageDetails": 4,
+      "type": "men"
     },
     {
       "id": 6,
@@ -216,7 +233,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 10,
       "srcImageHover": 11,
-      "srcImageDetails": 5
+      "srcImageDetails": 5,
+      "type": "men"
     },
     {
       "id": 7,
@@ -228,7 +246,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 12,
       "srcImageHover": 13,
-      "srcImageDetails": 6
+      "srcImageDetails": 6,
+      "type": "men"
     },
     {
       "id": 8,
@@ -240,7 +259,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 14,
       "srcImageHover": 15,
-      "srcImageDetails": 7
+      "srcImageDetails": 7,
+      "type": "men"
     },
     {
       "id": 9,
@@ -252,7 +272,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 16,
       "srcImageHover": 17,
-      "srcImageDetails": 8
+      "srcImageDetails": 8,
+      "type": "men"
     },
     {
       "id": 10,
@@ -264,7 +285,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 18,
       "srcImageHover": 19,
-      "srcImageDetails": 9
+      "srcImageDetails": 9,
+      "type": "men"
     },
     {
       "id": 11,
@@ -276,7 +298,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 20,
       "srcImageHover": 21,
-      "srcImageDetails": 10
+      "srcImageDetails": 10,
+      "type": "men"
     },
     {
       "id": 12,
@@ -288,7 +311,8 @@
       "moreColours": "MORE COLOURS",
       "srcImage": 22,
       "srcImageHover": 23,
-      "srcImageDetails": 11
+      "srcImageDetails": 11,
+      "type": "men"
     }
   ]
 }
