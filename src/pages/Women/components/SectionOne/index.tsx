@@ -10,7 +10,7 @@ const SectionOne: React.FC = () => {
         <span>Just dropped</span>
       </div>
       <div className={clsx(styles.shop)}>
-        <Link to="*">SHOP ASOS DESIGN</Link>
+        <Link to="jean-product">SHOP ASOS DESIGN</Link>
       </div>
     </div>
   );

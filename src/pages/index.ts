@@ -7,3 +7,4 @@ export { default as ForgotPassword } from "./ForgotPassword";
 export { default as JeanProduct } from "./JeanProduct";
 export { default as JeanProductDetails } from "./JeanProductDetails";
 export { default as Cart } from "./Cart";
+export { default as Search } from "./Search";

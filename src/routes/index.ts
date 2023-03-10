@@ -8,11 +8,13 @@ import {
   JeanProduct,
   JeanProductDetails,
   Cart,
+  Search,
 } from "../pages";
 export const publicRoutes = [
   { path: "/women", page: Women },
   { path: "/men", page: Men },
   { path: "/cart", page: Cart },
+  { path: "/search", page: Search },
   { path: "/men/jean-product", page: JeanProduct },
   { path: "/women/jean-product", page: JeanProduct },
   { path: "/men/jean-product-details/:name", page: JeanProductDetails },
