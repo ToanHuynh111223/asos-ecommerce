@@ -11,8 +11,14 @@ import useAxios from "../../hooks/useAxios";
 const Search: React.FC = () => {
   const [searchParams] = useSearchParams();
   let q = searchParams.get("q") ?? "";
-  const dataMen = useAxios("http://localhost:8000/jean-men", "GET");
-  const dataWomen = useAxios("http://localhost:8000/jean-women", "GET");
+  const dataMen = useAxios(
+    "https://run.mocky.io/v3/b3e7f95d-c37d-4eb4-8123-5c374071e675",
+    "GET"
+  );
+  const dataWomen = useAxios(
+    "https://run.mocky.io/v3/b04e21b8-cf09-41f9-b767-df7c1e36b129",
+    "GET"
+  );
   const dataProduct = [...dataMen, ...dataWomen];
   // 👇 remove class to body element
   useEffect(() => {

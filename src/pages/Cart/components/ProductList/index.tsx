@@ -15,7 +15,6 @@ import { Link } from "react-router-dom";
 const ProductList: React.FC = () => {
   const productList = useSelector((state: any) => state.cart);
   const dispatch = useDispatch();
-
   useEffect(() => {
     // 👇 add class to body element
     document.body.classList.add("signInPage");
@@ -23,6 +22,7 @@ const ProductList: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   const handleRemoveProduct = (index: number) => {
     dispatch(removeProduct(index));
   };

@@ -12,7 +12,10 @@ import { Link } from "react-router-dom";
 import Alert from "@mui/material/Alert";
 import Stack from "@mui/material/Stack";
 const JeanWomenDetails: React.FC<{ name: string }> = ({ name }) => {
-  const data = useAxios("http://localhost:8000/jean-women", "GET");
+  const data = useAxios(
+    "https://run.mocky.io/v3/b04e21b8-cf09-41f9-b767-df7c1e36b129",
+    "GET"
+  );
   const dispatch = useDispatch();
   const productList = useSelector((state: any) => state.cart);
   const [quantity, setQuantity] = useState(1);
@@ -53,11 +56,13 @@ const JeanWomenDetails: React.FC<{ name: string }> = ({ name }) => {
     setToastMessage(true);
   };
   useEffect(() => {
-    if (toastMessage) {
-      setTimeout(() => {
-        setToastMessage(false);
-      }, 2500);
-    }
+    const removeToast = setTimeout(() => {
+      setToastMessage(false);
+    }, 2500);
+
+    return () => {
+      clearTimeout(removeToast);
+    };
   }, [toastMessage]);
   return (
     <>

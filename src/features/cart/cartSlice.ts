@@ -24,6 +24,11 @@ export const cartSlice = createSlice({
         state[action.payload].quantity = 1;
       } else state[action.payload].quantity -= 1;
     },
+    saveProduct: (state: any, action) => {
+      action.payload.map((product: any) => {
+        state.push(product);
+      });
+    },
   },
 });
 
@@ -34,6 +39,7 @@ export const {
   updateProduct,
   increaseQuantity,
   decreaseQuantity,
+  saveProduct,
 } = cartSlice.actions;
 
 // this is for configureStore

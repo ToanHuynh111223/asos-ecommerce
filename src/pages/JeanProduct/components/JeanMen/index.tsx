@@ -5,7 +5,10 @@ import { imgJeanProductMen } from "../../../../assets";
 import { Link } from "react-router-dom";
 import useAxios from "../../../../hooks/useAxios";
 const JeanMen: React.FC = () => {
-  const data = useAxios("http://localhost:8000/jean-men", "GET");
+  const data = useAxios(
+    "https://run.mocky.io/v3/b3e7f95d-c37d-4eb4-8123-5c374071e675",
+    "GET"
+  );
   return (
     <div className={clsx(styles.wrapperMen)}>
       <Grid container spacing={2}>

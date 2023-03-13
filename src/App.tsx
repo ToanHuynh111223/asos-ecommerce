@@ -5,7 +5,17 @@ import DefaultLayout from "./layouts/DefaultLayout";
 import { publicRoutes } from "./routes";
 import { PageNotFound } from "./pages";
 import "../src/styles/App.scss";
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { saveProduct } from "./features/cart/cartSlice";
 function App() {
+  const storeData = localStorage.getItem("data");
+  const data = storeData ? JSON.parse(storeData) : [];
+  const dispatch = useDispatch();
+  useEffect(() => {
+    const newData = saveProduct(data);
+    dispatch(newData);
+  }, []);
   return (
     <Router>
       <div className="App">

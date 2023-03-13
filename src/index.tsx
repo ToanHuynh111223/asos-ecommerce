@@ -10,11 +10,11 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <Provider store={store}>
-    <React.StrictMode>
-      <GlobalStyles>
-        <App />
-      </GlobalStyles>
-    </React.StrictMode>
+    {/* <React.StrictMode> */}
+    <GlobalStyles>
+      <App />
+    </GlobalStyles>
+    {/* </React.StrictMode> */}
   </Provider>
 );
 
