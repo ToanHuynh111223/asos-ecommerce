@@ -11,7 +11,9 @@ import LocalShippingIcon from "@mui/icons-material/LocalShipping";
 import { Link } from "react-router-dom";
 import Alert from "@mui/material/Alert";
 import Stack from "@mui/material/Stack";
+import Loading from "../../../../components/Loading";
 const JeanMenDetails: React.FC<{ name: string }> = ({ name }) => {
+  const [loading, setLoading] = useState(false);
   const data = useAxios(
     "https://run.mocky.io/v3/b3e7f95d-c37d-4eb4-8123-5c374071e675",
     "GET"
@@ -64,7 +66,13 @@ const JeanMenDetails: React.FC<{ name: string }> = ({ name }) => {
       clearTimeout(removeToast);
     };
   }, [toastMessage]);
-  return (
+  //handle loading
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(true);
+    }, 3500);
+  }, []);
+  return loading ? (
     <>
       <div className={clsx(styles.product)}>
         <Grid container spacing={2}>
@@ -391,6 +399,8 @@ const JeanMenDetails: React.FC<{ name: string }> = ({ name }) => {
         </Stack>
       </div>
     </>
+  ) : (
+    <Loading />
   );
 };
 

@@ -4,12 +4,20 @@ import { Grid } from "@mui/material";
 import { imgJeanProductWomen } from "../../../../assets";
 import { Link } from "react-router-dom";
 import useAxios from "../../../../hooks/useAxios";
+import Loading from "../../../../components/Loading";
+import { useState, useEffect } from "react";
 const JeanWomen: React.FC = () => {
+  const [loading, setLoading] = useState(false);
   const data = useAxios(
     "https://run.mocky.io/v3/b04e21b8-cf09-41f9-b767-df7c1e36b129",
     "GET"
   );
-  return (
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(true);
+    }, 3000);
+  }, []);
+  return loading ? (
     <div className={clsx(styles.wrapperWomen)}>
       <Grid container spacing={2}>
         {data.map((product: any, index: number): any => {
@@ -58,6 +66,8 @@ const JeanWomen: React.FC = () => {
         })}
       </Grid>
     </div>
+  ) : (
+    <Loading />
   );
 };
 export default JeanWomen;

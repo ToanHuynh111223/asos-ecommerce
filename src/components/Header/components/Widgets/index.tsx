@@ -32,7 +32,7 @@ const Widgets: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link to="/login">
+              <Link to="*">
                 <Inventory2OutlinedIcon />
                 My Orders
               </Link>
